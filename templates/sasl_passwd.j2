@@ -1,3 +1,3 @@
 # {{ ansible_managed }}
 
-{{ postfix_relayhost }} {{ postfix_smtp_sasl_user }}:{{ postfix_smtp_sasl_password }}
+[{{ postfix_relayhost }}]:{{ postfix_relayhost_port | default('25') }} {{ postfix_smtp_sasl_user }}:{{ postfix_smtp_sasl_password }}
