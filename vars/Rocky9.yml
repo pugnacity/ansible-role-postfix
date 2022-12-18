@@ -1,0 +1,7 @@
+---
+postfix_prerequisites:
+  - postfix
+  - ca-certificates
+  - postfix-pcre
+
+postfix_postalias: /usr/sbin/postalias
