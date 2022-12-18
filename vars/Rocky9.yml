@@ -3,5 +3,6 @@ postfix_prerequisites:
   - postfix
   - ca-certificates
   - postfix-pcre
+  - cyrus-sasl-plain
 
 postfix_postalias: /usr/sbin/postalias
