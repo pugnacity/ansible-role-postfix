@@ -16,6 +16,7 @@ postfix_stable_os:
   - SLES 12
   - openSUSE Leap 15
   - openSUSE Leap 42
+  - Rocky 9
 
 postfix_managed: 'true'
 
